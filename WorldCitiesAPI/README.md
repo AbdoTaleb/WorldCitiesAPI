@@ -74,7 +74,7 @@ Update-Database```
 
 ## 🖼️ Swagger UI Example
 
-![Swagger Screenshot](assets/images/swagger-screenshot.png)
+![Swagger Screenshot](assets/images/swagger-resultt.png)
 
 ## 👤 Author
 
