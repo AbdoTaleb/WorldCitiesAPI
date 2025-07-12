@@ -52,13 +52,13 @@ Table: `Cities`
 ```json
 "ConnectionStrings": {
   "CityDB": "Server=DESKTOP-4DVTTSS;Database=WorldCities;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
-}
+}```
 
 
 ## 🗃️ Run the migration and create the database
 ```bash
 Add-Migration InitialCreate
-Update-Database
+Update-Database```
 
 ## 🔁 API Endpoints
 
