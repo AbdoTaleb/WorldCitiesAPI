@@ -46,3 +46,35 @@ Table: `Cities`
    ```bash
    git clone https://github.com/AbdoTaleb/WorldCitiesAPI.git
    cd WorldCitiesAPI
+
+## 🔧 Update the connection string in appsettings.json
+
+```json
+"ConnectionStrings": {
+  "CityDB": "Server=DESKTOP-4DVTTSS;Database=WorldCities;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
+}
+
+
+## 🗃️ Run the migration and create the database
+```bash
+Add-Migration InitialCreate
+Update-Database
+
+## 🔁 API Endpoints
+
+| Method | Endpoint            | Description              |
+|--------|---------------------|--------------------------|
+| GET    | `/api/Cities`       | Get all cities           |
+| GET    | `/api/Cities/{id}`  | Get city by ID           |
+| POST   | `/api/Cities`       | Add a new city           |
+| PUT    | `/api/Cities/{id}`  | Update an existing city  |
+| DELETE | `/api/Cities/{id}`  | Delete a city            |
+
+
+## 👤 Author
+
+**Abdo Taleb**  
+📍 Location: Sweden  
+🔗 GitHub: [https://github.com/AbdoTaleb](https://github.com/AbdoTaleb)
+
+
