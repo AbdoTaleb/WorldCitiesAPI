@@ -72,9 +72,7 @@ Update-Database```
 | PUT    | `/api/Cities/{id}`  | Update an existing city  |
 | DELETE | `/api/Cities/{id}`  | Delete a city            |
 
-## 🖼️ Swagger UI Example
 
-![Swagger Screenshot](assets/images/swagger-resultt.png)
 
 ## 👤 Author
 
