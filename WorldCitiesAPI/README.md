@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# 🌍 WorldCitiesAPI
-=======
 ﻿# 🌍 WorldCitiesAPI
->>>>>>> main
 
 A simple ASP.NET Core Web API that manages cities and their population data.  
 This project is part of a mini assignment and demonstrates full CRUD operations with a SQL Server database using Entity Framework Core.
@@ -25,11 +21,7 @@ This project is part of a mini assignment and demonstrates full CRUD operations 
 - ASP.NET Core 8.0
 - Entity Framework Core
 - SQL Server (Local)
-<<<<<<< HEAD
-- Swagger 
-=======
 - Swagger / Swashbuckle
->>>>>>> main
 - Visual Studio 2022
 
 ---
@@ -59,11 +51,7 @@ Table: `Cities`
 
 ```json
 "ConnectionStrings": {
-<<<<<<< HEAD
-  "CityDB": "Server=YOUR-SERVER-NAME;Database=WorldCities;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
-=======
   "CityDB": "Server=DESKTOP-4DVTTSS;Database=WorldCities;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
->>>>>>> main
 }
 ```
 
@@ -84,11 +72,7 @@ Update-Database```
 | PUT    | `/api/Cities/{id}`  | Update an existing city  |
 | DELETE | `/api/Cities/{id}`  | Delete a city            |
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> main
 ## 👤 Author
 
 **Abdo Taleb**  
