@@ -21,7 +21,7 @@ This project is part of a mini assignment and demonstrates full CRUD operations 
 - ASP.NET Core 8.0
 - Entity Framework Core
 - SQL Server (Local)
-- Swagger / Swashbuckle
+- Swagger 
 - Visual Studio 2022
 
 ---
@@ -51,7 +51,7 @@ Table: `Cities`
 
 ```json
 "ConnectionStrings": {
-  "CityDB": "Server=DESKTOP-4DVTTSS;Database=WorldCities;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
+  "CityDB": "Server=YOUR-SERVER-NAME;Database=WorldCities;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
 }
 ```
 
